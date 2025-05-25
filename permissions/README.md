@@ -17,4 +17,4 @@ This script adds execute permission to the owner and group, and read permission 
 This script adds execute permission to the owner, group, and others using `chmod a+x` (without using commas).
 ## 8-James_Bond
 This script sets the permissions of the file `hello` so that only others have all permissions (read, write, execute) using `chmod 007`.
-o
+ooo
