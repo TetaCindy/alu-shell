@@ -31,4 +31,6 @@ This script changes the group owner of the file `hello` to `school` using the `c
 This script changes both the owner and group of all files and directories in the current working directory to `vincent` and `staff`, using `chown vincent:staff *`.
 ## 15-symbolic_link_permissions
 This script changes the owner and group of the symbolic link `_hello` (not its target) to `vincent` and `staff` using `chown -h`.
+## 16-if_only
+This script changes the owner of the file `hello` to `vincent`, but only if the current owner is `guillaume`, using `chown --from`.
 
