@@ -11,4 +11,4 @@ This script changes the owner of the file `hello` to the user `betty` using the 
 ## 4-empty
 This script creates an empty file named `hello` using the `touch` command.
 ## 5-execute
-This script adds execute permission to the owner of the file `hello` using `chmod u+x` and.
+This script adds execute permission to the owner of the file `hello` using `chmod u+x` anncd.
