@@ -23,4 +23,6 @@ i## 10-mirror_permissions
 This script sets the permissions of the file `hello` to be exactly the same as those of `olleh`, using `chmod --reference=olleh hello`.
 ## 11-directories_permissions
 This script adds execute permission for owner, group, and others to all directories in the current directory using `find` and `chmod`, without affecting regular files.
+## 12-directories_permissions_more
+This script creates a directory called `my_dir` with permissions set to 751 (rwxr-x--x) using `mkdir -m`.
 
