@@ -19,4 +19,6 @@ This script adds execute permission to the owner, group, and others using `chmod
 This script sets the permissions of the file `hello` so that only others have all permissions (read, write, execute) using `chmod 007`.
 ## 9-John_Doe
 This script sets the mode of the file `hello` to `-rwxr-x-wx` using `chmod 753`, without using commas.
+i## 10-mirror_permissions
+This script sets the permissions of the file `hello` to be exactly the same as those of `olleh`, using `chmod --reference=olleh hello`.
 
