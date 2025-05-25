@@ -8,4 +8,6 @@ This script prints the effective username of the current user using the `whoami`
 This script prints all the groups the current user is a member of using the `groups` command.
 ## 3-new_owner
 This script changes the owner of the file `hello` to the user `betty` using the `chown` command.
+## 4-empty
+This script creates an empty file named `hello` using the `touch` command.
 .
