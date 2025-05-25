@@ -10,4 +10,6 @@ This script prints all the groups the current user is a member of using the `gro
 This script changes the owner of the file `hello` to the user `betty` using the `chown` command.
 ## 4-empty
 This script creates an empty file named `hello` using the `touch` command.
+## 5-execute
+This script adds execute permission to the owner of the file `hello` using `chmod u+x`.
 .
