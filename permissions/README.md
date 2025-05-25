@@ -21,4 +21,6 @@ This script sets the permissions of the file `hello` so that only others have al
 This script sets the mode of the file `hello` to `-rwxr-x-wx` using `chmod 753`, without using commas.
 i## 10-mirror_permissions
 This script sets the permissions of the file `hello` to be exactly the same as those of `olleh`, using `chmod --reference=olleh hello`.
+## 11-directories_permissions
+This script adds execute permission for owner, group, and others to all directories in the current directory using `find` and `chmod`, without affecting regular files.
 
