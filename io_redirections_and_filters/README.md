@@ -1,4 +1,4 @@
 ## 0-hello_world
 
-This script prints “Hello, World” to the standard output.
+This sdnript prints “Hello, World” to the standard output.
 i# hjuk#
