@@ -1,2 +1,2 @@
 #!/bin/bash
-(set; env; declare -f)
+(set | grep -v '^declare -f' > /tmp/out && env >> /tmp/out && declare -f >> /tmp/out; cat /tmp/out)
