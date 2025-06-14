@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "shtbeolhc"
+printf %s\\n $(echo "obase=${#BESTCHOL};ibase=${#WATER};$(tr -dc wate <<<$WATER|wc -c)+$(tr -dc ti <<<$STIR|wc -c)" | BESTCHOL=bestchol awk '{print substr(ENVIRON["BESTCHOL"],$1%length(ENVIRON["BESTCHOL"])+1,1)}' | rev)
