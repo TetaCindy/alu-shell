@@ -8,7 +8,7 @@ echo "$$" > "$PID_FILE"
 
 # Function to handle SIGQUIT and SIGTERM
 cleanup_and_exit() {
-    echo "I hate the kill command"
+   echo "I am invincible!!!"
     rm -f "$PID_FILE"
     exit 0
 }
