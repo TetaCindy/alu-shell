@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# This script writes its PID to a file and handles termination signals gracefully
+
+PID_FILE="/var/run/myscript.pid"
+
+# Write current PID to the file
+echo "$$" > "$PID_FILE"
+
+# Function to handle SIGQUIT and SIGTERM
+cleanup_and_exit() {
+    echo "I hate the kill command"
+    rm -f "$PID_FILE"
+    exit 0
+}
+
+# Trap both SIGTERM and SIGQUIT
+trap cleanup_and_exit SIGTERM
+trap cleanup_and_exit SIGQUIT
+
+# Infinite loop to keep the script alive
+while true; do
+    sleep 1
+done
+
